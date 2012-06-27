@@ -7,7 +7,7 @@
 
 YUI.add('yslow-config', function (Y) {
     Y.namespace('YSLOW').config = {
-        host: 'http://localhost/~stoyanstefanov/yslow/',
+        host: 'http://www.phpied.com/files/yslow/',
         js: '{{BOOKMARKLET_JS}}',
         css: '{{BOOKMARKLET_CSS}}'
     };
