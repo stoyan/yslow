@@ -112,6 +112,7 @@ bookmarklet-files:
             $(SRC_COMMON)/peeler.js \
             $(SRC_COMMON)/peeler-bm-ch-ph.js \
             $(SRC_BOOKMARKLET)/$(BM_CONFIG) \
+            3po/3po.js \
             $(SRC_BOOKMARKLET)/controller.js | \
             sed s/{{YSLOW_VERSION}}/$(YSLOW_VERSION)/ | \
             sed s/{{BOOKMARKLET_JS}}/$(BOOKMARKLET_JS)/ | \
