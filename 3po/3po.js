@@ -9,7 +9,8 @@ YSLOW3PO.is3p = function (url) {
     'platform.twitter.com',
     'code.jquery.com',
     'platform.linkedin.com',
-    '.disqus.com'
+    '.disqus.com',
+    '.lognornal.com'
   ];
   var hostname = YSLOW.util.getHostname(url);
   var re;
