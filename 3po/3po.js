@@ -10,7 +10,7 @@ YSLOW3PO.is3p = function (url) {
     'code.jquery.com',
     'platform.linkedin.com',
     '.disqus.com',
-    '.lognornal.com'
+    '.lognormal.com'
   ];
   var hostname = YSLOW.util.getHostname(url);
   var re;
